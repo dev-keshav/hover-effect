@@ -1,0 +1,30 @@
+.container {
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+    outline: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+  }
+  .circle:hover{
+    width: 100px;
+    height: 100px;
+  }
+  .hello{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .hello:hover{
+    font-size: larger;
+    color: blueviolet;
+  }
